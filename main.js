@@ -23,6 +23,8 @@ let user1 = "Miemusen1!";
 let user2 = "mie";
 
 
+
+
 console.log(lettersOnly.test(name1));
 console.log(lettersOnly.test(name2));
 
@@ -53,6 +55,15 @@ form.submit.addEventListener('click', function(){
 
         console.log("it must contain, Upper and lowercase letter as well as a symbol and a number");
     }
-})
+
+    if(valMail.test(form.email.value)){
+
+        console.log("Nice email");
+    }else{
+
+        console.log("NOT GOOD ENOUGH!");
+    }
+
+
 
 
