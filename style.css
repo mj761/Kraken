@@ -1,3 +1,36 @@
 .bg-kraken {
     background-image: url(img/bg_kraken_600px.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 800px;
+    padding: 100px;
+    margin: 100px auto;
+}
+
+.btn-kraken {
+    background: #92A2B8;
+    border: 1px solid #000;
+}
+.btn-kraken:hover {
+    background: #216768;
+    color: #fff;
+    border: 1px solid #fff;
+
+}
+
+.form-control:focus {
+    background: #92A2B8;
+    color: #fff;
+}
+
+.form-control {
+    margin: 20px 0;
+    width: 300px;
+}
+.form-control:first-child {
+    margin-top: 0;
+}
+
+.bg-focus {
+    background-color: #92A2B8;
 }
