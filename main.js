@@ -64,6 +64,7 @@ form.submit.addEventListener('click', function(){
         console.log("NOT GOOD ENOUGH!");
     }
 
-
+   
+});
 
 
